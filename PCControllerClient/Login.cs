@@ -35,7 +35,7 @@ namespace PCControllerClient
                 }
                 else
                 {
-                    new ControlPanel(this.txtUsername.Text).Show();
+                    new Form1(this.txtUsername.Text).Show();
                     base.Hide();
                 }
             }
